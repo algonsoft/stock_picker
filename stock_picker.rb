@@ -22,6 +22,7 @@ stock_picker_array[0] = best_index
 stock_picker_array[1] = sell_dates[best_index]
 
 puts "#{stock_picker_array}"
+puts "For a profit of $#{sell_value[best_index]} - $#{stock_prices[best_index]} = $#{profit_array[best_index]}"
 end
 
 stock_picker([17,3,6,9,15,8,6,1,10])
